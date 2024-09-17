@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) throws MaterialNoEncontradoException {
-		Biblioteca nueva = new Biblioteca(null);
+		Biblioteca nueva = new Biblioteca(null);//debes hacer un arraylist nuevo y pasarlo como argumento a biblioteca nueva//
 		Scanner lector = new Scanner(System.in);
 		
 		Material uno=new Libro("Harry Potter", 1920, "J.K Rowling", "20PSCL");
