@@ -81,6 +81,7 @@ public class Main {
 
 			case 3:
 				System.out.println("Teclé el titulo del material a buscar");
+					//antes de string nombre debemos poner un lector.nextLine para limpiar el scanner//
 				String nombre = lector.nextLine();
 				 lector.nextLine();
 				nueva.BuscarMaterial(nombre);
