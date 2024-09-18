@@ -33,6 +33,7 @@ public class Main {
 				case 1:
 					
 					System.out.println("Teclé el titulo del libro");
+						//debemos poner un lector.nextLine antes del string t para limpiar, luego otro despues del string f para que nos agrege bien los datos sino el titulo lo lee como vacio//
 					String t = lector.nextLine();
 					lector.nextLine();//para que no nos junte un system.out con elotro sino que espere a que el usuario responda y luego salte el siguiente//
 					System.out.println("Teclé el año de publicacion del libro");
