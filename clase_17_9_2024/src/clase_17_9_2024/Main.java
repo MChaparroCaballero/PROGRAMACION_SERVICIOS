@@ -93,6 +93,7 @@ public class Main {
 			}
 		} while (opcion != 4);
 		lector.close();
+		//cuando lo depures a distintos metodos ten en cuenta que lo mismo tendras que pasar la biblioteca y el scanner//
 	}
 
 }
